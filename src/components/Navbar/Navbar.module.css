@@ -1,0 +1,39 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.3rem;
+  position: relative;
+}
+.mobileIcon button {
+  padding: 5px;
+  background-color: transparent;
+  border: 2px solid var(--title);
+}
+
+.navMobile {
+  background-image: url("../../assets/bg-pattern-mobile-nav.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: var(--title);
+  left: 0;
+  top: 63px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 35px;
+  padding-top: 40px;
+  z-index: 2;
+}
+
+.navMobile a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+  letter-spacing: 2px;
+}

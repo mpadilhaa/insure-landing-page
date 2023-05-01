@@ -1,0 +1,14 @@
+.anchor {
+  margin: 30px 0;
+  text-transform: uppercase;
+  color: var(--title);
+}
+
+.title {
+  color: var(--text);
+  margin-bottom: 20px;
+}
+
+.paragraph {
+  margin: 10px 0;
+}

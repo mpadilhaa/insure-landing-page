@@ -1,0 +1,20 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 30px;
+  margin: 60px 0;
+}
+
+.cards span {
+  border: 1px solid var(--text);
+  width: 45%;
+}
+
+.cards h1 {
+  margin-bottom: 20px;
+  color: var(--title);
+  
+}

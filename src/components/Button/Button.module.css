@@ -1,0 +1,10 @@
+.btn button{
+ width: 90%;
+ background-color: transparent;
+ border: 2px solid var(--bg);
+ color: var(--bg);
+ padding: 15px 20px;
+ text-transform: uppercase;
+ font-weight: 700;
+ letter-spacing: 2px;
+}

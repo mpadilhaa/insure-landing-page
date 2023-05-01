@@ -1,0 +1,22 @@
+.workCard {
+  background-image: url("../../assets/bg-pattern-how-we-work-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  background-color: var(--title);
+  margin: 0 auto;
+  padding: 80px 20px;
+  text-align: center;
+  width: 85%;
+}
+
+.workCard h1 {
+  color: var(--bg);
+  margin-bottom: 50px;
+  line-height: 1;
+}
+
+.workCard span button {
+  width: 60%;
+  margin: 0 auto;
+}
