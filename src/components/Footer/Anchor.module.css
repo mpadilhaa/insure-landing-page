@@ -12,3 +12,10 @@
 .paragraph {
   margin: 10px 0;
 }
+
+@media (min-width: 834px) {
+  .paragraph:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}

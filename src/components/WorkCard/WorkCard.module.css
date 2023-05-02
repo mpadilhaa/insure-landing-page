@@ -16,7 +16,36 @@
   line-height: 1;
 }
 
-.workCard span button {
-  width: 60%;
+.workCard button {
   margin: 0 auto;
+  color: var(--bg);
+  border: 2px solid var(--bg);
+}
+
+@media (min-width: 834px) {
+  .workCard {
+    background-image: url("../../assets/bg-pattern-how-we-work-desktop.svg");
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 5%;
+    text-align: start;
+    width: 78%;
+  }
+
+  .workCard h1 {
+    margin: 0;
+    padding: 10px;
+  }
+
+  .title {
+    width: 40%;
+  }
+
+  .workCard button:hover{
+    background:var(--bg);
+    color: var(--title);
+    cursor: pointer;
+  }
 }

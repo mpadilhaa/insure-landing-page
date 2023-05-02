@@ -16,7 +16,6 @@
 
 body {
   font-family: "Karla", sans-serif;
-  
 }
 
 h1,
@@ -26,10 +25,20 @@ h4 {
   font-family: "DM Serif Display", serif;
 }
 
-h1{
+h1 {
   font-size: 2.6rem;
   font-weight: 400;
 }
-p{
+p {
   line-height: 1.4;
+}
+
+button {
+  background-color: transparent;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  border: 2px solid var(--title);
+  color: var(--title);
 }

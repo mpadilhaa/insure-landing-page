@@ -14,7 +14,29 @@
 }
 
 .cards h1 {
+  font-size: 4.1rem;
   margin-bottom: 20px;
   color: var(--title);
-  
+}
+
+@media (min-width: 834px) {
+  .cards {
+    display: block;
+    padding: 0 10rem;
+    margin: 20rem 0 10rem 0;
+    align-items: start;
+  }
+
+  .cards span {
+    display: flex;
+    width: 13%;
+  }
+  .cardList {
+    display: flex;
+    gap: 35px;
+  }
+  .cards h1 {
+    display: block;
+    margin: 40px 0 60px 0;
+  }
 }

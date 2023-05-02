@@ -10,21 +10,23 @@ const Cards = () => {
     <div className={styles.cards}>
       <span></span>
       <h1>{title[1]}</h1>
-      <Card
-        img={cardIcons[0]}
-        subtitle={subtitle[0]}
-        paragraph={cardParagraph[0]}
-      />
-      <Card
-        img={cardIcons[1]}
-        subtitle={subtitle[1]}
-        paragraph={cardParagraph[1]}
-      />
-      <Card
-        img={cardIcons[2]}
-        subtitle={subtitle[2]}
-        paragraph={cardParagraph[2]}
-      />
+      <div className={styles.cardList}>
+        <Card
+          img={cardIcons[0]}
+          subtitle={subtitle[0]}
+          paragraph={cardParagraph[0]}
+        />
+        <Card
+          img={cardIcons[1]}
+          subtitle={subtitle[1]}
+          paragraph={cardParagraph[1]}
+        />
+        <Card
+          img={cardIcons[2]}
+          subtitle={subtitle[2]}
+          paragraph={cardParagraph[2]}
+        />
+      </div>
     </div>
   );
 };

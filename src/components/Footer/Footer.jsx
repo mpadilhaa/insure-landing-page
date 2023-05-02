@@ -20,6 +20,7 @@ const Footer = () => {
           ))}
         </div>
       </div>
+      <span></span>
       <div className={styles.anchors}>
         <Anchor title={footer[0].title} paragraph={ourCompany} />
         <Anchor title={footer[1].title} paragraph={helpMe} />

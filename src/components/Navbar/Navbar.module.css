@@ -5,12 +5,18 @@
   padding: 1.3rem;
   position: relative;
 }
-.mobileIcon button {
+.menu {
   padding: 5px;
   background-color: transparent;
-  border: 2px solid var(--title);
+  
 }
 
+.btnMobile{
+  margin: 0 auto;
+  padding:  20px 100px;
+  color: var(--bg);
+  border: 2px solid var(--bg);
+}
 .navMobile {
   background-image: url("../../assets/bg-pattern-mobile-nav.svg");
   background-repeat: no-repeat;
@@ -36,4 +42,41 @@
   font-weight: 700;
   color: white;
   letter-spacing: 2px;
+}
+
+@media (min-width: 834px) {
+  .navbar {
+    padding: 1rem 10rem;
+  }
+
+  .desktop {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .navDesktop {
+    display: flex;
+    gap: 25px;
+  }
+  .navDesktop a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--text);
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 13px;
+  }
+
+  .navDesktop a:hover {
+    color: var(--title);
+    cursor: pointer;
+  }
+
+  .desktop button:hover {
+    color: var(--bg);
+    background-color: var(--title);
+    transition: 0.4s ease;
+    cursor: pointer;
+  }
 }

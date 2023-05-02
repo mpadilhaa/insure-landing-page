@@ -7,7 +7,9 @@ const Anchor = (props) => {
     <div className={styles.anchor}>
       <h6 className={styles.title}>{props.title}</h6>
       {props.paragraph.map((paragraph, i) => (
-        <h6 className={styles.paragraph}key={i}>{paragraph}</h6>
+        <h6 className={styles.paragraph} key={i}>
+          {paragraph}
+        </h6>
       ))}
     </div>
   );

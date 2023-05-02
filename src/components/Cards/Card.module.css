@@ -15,3 +15,10 @@
 .card p {
   color: var(--text);
 }
+
+@media (min-width: 834px) {
+  .card {
+    align-items: start;
+    text-align: start;
+  }
+}
