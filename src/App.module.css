@@ -26,14 +26,29 @@ h4 {
 }
 
 h1 {
-  font-size: 2.6rem;
+  font-size: clamp(2.6rem, 2.0718rem + 2.2535vw, 4.1rem);
   font-weight: 400;
 }
+
+h2 {
+  font-size: clamp(2rem, 1.7887rem + 0.9014vw, 2.6rem);
+}
+
+h3 {
+  font-size: clamp(1.2rem, 1.0944rem + 0.4507vw, 1.5rem);
+}
+
 p {
+  font-size: clamp(0.8125rem, 0.7465rem + 0.2817vw, 1rem);
   line-height: 1.4;
 }
 
+a {
+  font-size: clamp(0.625rem, 0.559rem + 0.2817vw, 0.8125rem);
+}
+
 button {
+  font-size: clamp(0.625rem, 0.559rem + 0.2817vw, 0.8125rem);
   background-color: transparent;
   padding: 10px 20px;
   text-transform: uppercase;

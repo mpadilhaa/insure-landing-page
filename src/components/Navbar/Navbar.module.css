@@ -8,12 +8,11 @@
 .menu {
   padding: 5px;
   background-color: transparent;
-  
 }
 
-.btnMobile{
+.btnMobile {
   margin: 0 auto;
-  padding:  20px 100px;
+  padding: 20px 100px;
   color: var(--bg);
   border: 2px solid var(--bg);
 }
@@ -33,7 +32,7 @@
   text-align: center;
   gap: 35px;
   padding-top: 40px;
-  z-index: 2;
+  z-index: 999;
 }
 
 .navMobile a {
@@ -65,7 +64,6 @@
     color: var(--text);
     font-weight: 700;
     letter-spacing: 2px;
-    font-size: 13px;
   }
 
   .navDesktop a:hover {

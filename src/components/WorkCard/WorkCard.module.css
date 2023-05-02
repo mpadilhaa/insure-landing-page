@@ -10,7 +10,7 @@
   width: 85%;
 }
 
-.workCard h1 {
+.workCard h2 {
   color: var(--bg);
   margin-bottom: 50px;
   line-height: 1;
@@ -34,7 +34,7 @@
     width: 78%;
   }
 
-  .workCard h1 {
+  .workCard h2 {
     margin: 0;
     padding: 10px;
   }

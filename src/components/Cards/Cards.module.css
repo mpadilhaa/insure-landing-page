@@ -14,9 +14,12 @@
 }
 
 .cards h1 {
-  font-size: 4.1rem;
   margin-bottom: 20px;
   color: var(--title);
+}
+
+.cards p {
+  margin-bottom: 20px;
 }
 
 @media (min-width: 834px) {
@@ -25,6 +28,7 @@
     padding: 0 10rem;
     margin: 20rem 0 10rem 0;
     align-items: start;
+    gap: 0;
   }
 
   .cards span {
@@ -33,7 +37,8 @@
   }
   .cardList {
     display: flex;
-    gap: 35px;
+    justify-content: center;
+    gap: 30px;
   }
   .cards h1 {
     display: block;

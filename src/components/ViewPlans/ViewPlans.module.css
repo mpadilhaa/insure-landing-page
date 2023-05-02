@@ -24,9 +24,9 @@
 }
 
 .viewPlans h1 {
-  font-size: 2.6rem;
   line-height: 1;
 }
+
 .viewPlans button {
   padding: 10px;
   width: 145px;
@@ -34,8 +34,11 @@
   color: var(--bg);
   align-self: center;
 }
+
 .viewPlans img {
   width: 100%;
+  min-width: 50%;
+  object-fit: contain;
 }
 
 @media (min-width: 834px) {
@@ -74,7 +77,6 @@
   }
 
   .content h1 {
-    font-size: 4.1rem;
     margin-right: 60px;
   }
 
@@ -96,6 +98,5 @@
     right: auto;
     left: 0;
     top: 400px;
-   
   }
 }

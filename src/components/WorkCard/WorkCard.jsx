@@ -8,7 +8,7 @@ const WorkCard = () => {
   return (
     <div className={styles.workCard}>
       <div className={styles.title}>
-        <h1>{title[2]}</h1>
+        <h2>{title[2]}</h2>
       </div>
       <div>
         <button>how we work</button>

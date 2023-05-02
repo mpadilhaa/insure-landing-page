@@ -11,7 +11,7 @@ const ViewPlans = () => {
   const { width } = useWidth();
   return (
     <div className={styles.viewPlans}>
-      {width > 834 ? (
+      {width > 534 ? (
         <img src={images[0]} alt="familia" />
       ) : (
         <img src={images[1]} alt="familia" />
@@ -25,7 +25,11 @@ const ViewPlans = () => {
         <button>view plans</button>
 
         <div className={styles.backg}>
-         {width < 834 ? <img src={bgtwo} alt="bg" /> : <img src={bgthree} alt="bg" /> } 
+          {width < 834 ? (
+            <img src={bgtwo} alt="bg" />
+          ) : (
+            <img src={bgthree} alt="bg" />
+          )}
         </div>
       </div>
     </div>
